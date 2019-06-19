@@ -1,37 +1,46 @@
 *{margin: 0 auto; padding: 0 auto;}
 
 /* HEADER */
-#menu { 
-  width: 80%;
+header { 
+  width: 90%;
   height: 90px;
   padding: 30px;
+  position: relative;
 }
 
-.search {
+#txtBusca{
+  position: absolute;
   float: left;
 }
 
-.search input {
+#txtBusca {
   border-radius: 5px;
   width: 200px;
   height: 30px; 
   border: 1px solid #000;
 }
 
-.logo {
-  float: left;
+#logo {
+  position: absolute;
+  left: 450px;
 }
 
-.social-networks {
-  float: left;
+.social-networks img {
+  width: 30px;
+  margin-right: 5px;
 }
 
-#menu .social-networks {
 
+.text-center{
+  position: absolute;
+  padding: 0;
+  margin: 0 auto;
 }
+
 /* BANNER */
 .banner {
   width: 100%;
+  position: relative;
 }
 .banner img {
   width: 100%;
@@ -39,24 +48,34 @@
 
 /* MAIN */
 main { 
-  width: 80%;
-  padding-top: 50px;
+  width: 100%;
+  height: auto;
+  padding: 50px 0 50px 0;
 }
 
+main .container .col-md-4 {
+  padding: 30px;
+}
+
+
 main section{
-  align-items:center;
-  justify-content:center;
+  align-items: center;
+  justify-content: center;
   float: left;
 }
 
 .post { 
   background-color: white;
   border: 1px solid white;
-  width: 650px;
   margin: 0;
   box-sizing: border-box;
-  padding: 20px;
+  padding-top: 20px;
   float: left;
+}
+
+.post a {
+  text-decoration: none;
+  color: #000;
 }
 
 .post img {
@@ -69,43 +88,54 @@ main section{
   padding-left: 220px;
 }
 
-.post7 {
-  width: 300px;
+.box1 {
+  width: 100%;
   background: #feb123;
   text-align: center;
   padding: 20px;
   color: #fff;
 }
 
-.post8 {
-  width: 300px;
+.box2 {
+  width: 100%;
   background: #006772;
   text-align: center;
   color: #fff;
   padding: 20px;
+  margin-top: 20px;
 }
 
-.post9 {
-  width: 300px;
+.box3 {
+  width: 100%;
   background: #72206f;
   text-align: center;
   color: #fff;
   padding: 20px;
+  margin-top: 20px;
+}
+
+.box4 {
+  margin-top: 20px;
+}
+
+.box4 img {
+  width: 250px;
+  margin-left: 40px;
 }
 
 main section input {
-  background: #000;
+  background: #1a1a1a;
   color: #fff;
   border: none;
   padding: 10px;
+  width: 80%;
   font-weight: bold;
 }
 
-/* INVITE */
+/* REGISTER */
 .register {
-  float: left;
   width: 100%;
-  height: auto;
+  height: 150px;
   background: #9c9c9c;
   padding: 30px 0 30px 0;
   text-align: center;
@@ -131,10 +161,20 @@ main section input {
   font-weight: bold;
 }
 
-footer {
-  width: 80%;
-  height: auto;
+
+/* FOOTER*/
+footer { 
+  width: 100%;
+  height: 90px;
   padding: 30px;
 }
+
+#logo-footer {
+  position: absolute;
+  left: 450px;
+}
+
+
+
 
 
