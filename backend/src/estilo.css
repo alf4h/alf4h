@@ -69,12 +69,13 @@ main section{
   border: 1px solid white;
   margin: 0;
   box-sizing: border-box;
-  padding-top: 20px;
+  padding-top: 30px;
   float: left;
 }
 
 .post a {
   text-decoration: none;
+  line-height: 25px;
   color: #000;
 }
 
@@ -83,9 +84,17 @@ main section{
   float: left;
 }
 
-.post p, h2 {
+.post h2 {
   margin: 0;
   padding-left: 220px;
+  font-size: 27px;
+}
+
+.post p {
+  margin: 0;
+  padding-left: 220px;
+  padding-top: 10px;
+  font-size: 16px;
 }
 
 .box1 {
@@ -135,7 +144,6 @@ main section input {
 /* REGISTER */
 .register {
   width: 100%;
-  height: 150px;
   background: #9c9c9c;
   padding: 30px 0 30px 0;
   text-align: center;
@@ -143,7 +151,8 @@ main section input {
 
 .register p, b {
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 2em;
 }
 
 .register .input-email {
@@ -172,6 +181,104 @@ footer {
 #logo-footer {
   position: absolute;
   left: 450px;
+}
+
+
+/* PAGINA DICAS ENEM */
+
+.dicas-enem { 
+  padding: 50px;
+}
+
+.dicas-enem h2 {
+  text-align: center;
+  padding: 0;
+  line-height: 2em;
+  padding-bottom: 40px;
+}
+
+.dicas-enem h3 {
+  line-height: 2em;
+}
+
+.dicas-enem p {
+  line-height: 2em;
+  font-size: 16px;
+}
+
+
+/* PAGINA A MENTIRA */
+
+.amentira { 
+  padding: 50px;
+}
+
+.amentira h2 {
+  text-align: center;
+  padding: 0;
+  line-height: 2em;
+  padding-bottom: 40px;
+}
+
+.amentira h3 {
+  line-height: 2em;
+}
+
+.amentira p {
+  line-height: 2em;
+  font-size: 16px;
+}
+
+/* PAGINA FIES */
+
+.fies { 
+  padding: 50px;
+}
+
+.fies h2 {
+  text-align: center;
+  padding: 0;
+  line-height: 2em;
+  padding-bottom: 40px;
+}
+
+.fies h3 {
+  line-height: 2em;
+}
+
+.fies h4 {
+  line-height: 1.5;
+}
+
+.fies p {
+  line-height: 2em;
+  font-size: 16px;
+}
+
+/* PAGINA ESTAGIARIO */
+
+.estagiario { 
+  padding: 50px;
+}
+
+.estagiario h2 {
+  text-align: center;
+  padding: 0;
+  line-height: 2em;
+  padding-bottom: 40px;
+}
+
+.estagiario h3 {
+  line-height: 2em;
+}
+
+.estagiario h4 {
+  line-height: 1.5;
+}
+
+.estagiario p {
+  line-height: 2em;
+  font-size: 16px;
 }
 
 
